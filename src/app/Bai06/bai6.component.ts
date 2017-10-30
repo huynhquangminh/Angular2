@@ -20,6 +20,7 @@ export class bai6Component
       changeClass2()
     {
         this.applyStyle = !this.applyStyle;
+        
         this.applyclass = !this.applyclass;
     }
 
