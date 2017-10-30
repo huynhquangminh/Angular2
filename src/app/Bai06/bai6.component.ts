@@ -17,4 +17,10 @@ export class bai6Component
         this.applyStyle = !this.applyStyle;
         this.applyclass = !this.applyclass;
     }
+      changeClass2()
+    {
+        this.applyStyle = !this.applyStyle;
+        this.applyclass = !this.applyclass;
+    }
+
 }
