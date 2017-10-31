@@ -1,5 +1,10 @@
-<h1>Bài 06 </h1>
+<h1>Bai 6 binding style and class</h1>
 
-<h2 [class.redcolor]="applyclass" >đây là thẻ h2</h2>
-<h3 [style.color]="applyStyle?'blue':'yellow'">đây là thẻ h3</h3>
-<button (click)="changeClass()">chuyển đổi </button>
+<h2 [class.colorh2]="appclass">
+    đây là thẻ h2 
+</h2>
+<h3 [style.color]="applystyle?'blue':'green'">
+    đây là thẻ h3
+</h3>
+
+<button (click) = "OnApplyClass()">appclass</button>

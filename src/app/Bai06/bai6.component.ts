@@ -5,23 +5,14 @@ import {Component} from '@angular/core';
     selector:'bai06-demo',
     templateUrl: 'bai6.component.html',
     styleUrls :['bai6.component.css']
-
 })
 
 export class bai6Component
 {
-    public applyclass :boolean = true;
-    applyStyle :boolean = false;
-    changeClass()
+    public appclass :boolean = false;
+    public applystyle :boolean = false;
+    OnApplyClass()
     {
-        this.applyStyle = !this.applyStyle;
-        this.applyclass = !this.applyclass;
+        this.appclass = !this.appclass;
     }
-      changeClass2()
-    {
-        this.applyStyle = !this.applyStyle;
-        
-        this.applyclass = !this.applyclass;
-    }
-
 }
