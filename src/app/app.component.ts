@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  public countpop = 0;
+  public countpush = 0;
+  countvote(value)
+  {
+    if(value) this.countpop++;
+    else this.countpush--;
+  }
 }
+
+
+
+
+
+

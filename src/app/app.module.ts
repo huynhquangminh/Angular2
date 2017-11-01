@@ -7,11 +7,12 @@ import {bai5Component} from './Bai05/bai5.component';
 import {bai6Component} from './Bai06/bai6.component';
 import {bai7Component} from './Bai07/bai7.compnent';
 import {bai8Component} from './Bai08/bai8.component';
+import {bai9Component} from './Bai09/bai9.component';
 import {FormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
-    bai3Component, bai5Component, bai6Component, bai7Component, bai8Component
+    bai3Component, bai5Component, bai6Component, bai7Component, bai8Component,bai9Component
   ],
   imports: [
     BrowserModule,FormsModule

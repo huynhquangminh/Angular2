@@ -1,7 +1,9 @@
 <h1 >
   Xin chào khóa học 
 </h1>
-
-<bai08-demo>
+<input type="text" #txtname (keyup) ="0"/>
+<p>counpop = {{countpop}}</p>
+<p>counpush = {{countpush}}</p>
+<bai09-demo [name] ="txtname.value" (voteOutput)="countvote($event)">
   
-</bai08-demo>
+</bai09-demo>
